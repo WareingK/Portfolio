@@ -27,18 +27,27 @@ h1 {
     padding: 5px;
     background-color: lightblue;
 }
-
-.About {
+.About{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.About h2{
+    display: inline-flex;
     font-size: 55px;
+    border-color: lightblue;
+    border-right-style: solid;
+    padding: 5px;
 }
 
-.Info {
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 20px;
-    max-width: 50%;
-    margin-left: 25%;
+.About p {
+    display: flex;
+    padding: 5px;
+    color: white;
+    margin-right: 100px;
+    margin-left: 60px;
+    width: 60%;
+    word-spacing: 3px;
 }
 
 .Face {
@@ -80,9 +89,9 @@ img {
    
 }
 .Contact  h2{
-    display:inline-flex;
+    display: inline-flex;
     font-size: 55px;
-    border-color: blue;
+    border-color: lightblue;
     border-right-style: solid;
     padding: 5px;
 }
