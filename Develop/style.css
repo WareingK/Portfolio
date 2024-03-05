@@ -29,7 +29,7 @@ h1 {
 }
 
 .About {
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .Info {
@@ -73,4 +73,30 @@ img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+   
+}
+.Contact  h2{
+    display:inline-flex;
+    font-size: 55px;
+    border-color: blue;
+    border-right-style: solid;
+    padding: 5px;
+}
+.Contact ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    width: 60%;
+}
+.Contact ul li {
+    padding: 5%;
+}
+.Contact ul li a{
+    color: white;
 }
